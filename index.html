@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    </head>
+<body>
+    <header class="header-content">
+        <div class="navbar">
+            <div class="logo">
+            <h5>Golden</h5>
+            </div>
+               <div class="humburg" onclick="show()" >
+        <img src="/Images/hamburger.png" alt="" id="humbard-icon" >
+  
+              </div>
+              <div class="humburg" id="close" onclick="hide()" >
+                <img src="/Images/close.png" alt="" >
+          
+                      </div>
+            <div class="menu"  id="menus">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+ 
+        </div>
+
+        <div class="home-title">
+      <h1>Welcome to our Studio!</h1>
+       <h2>IT'S NICE TO MEET YOU</h2>
+      <div class="header-button">
+    <a href="">Tell Me More</a>
+      </div>
+        </div> 
+       </header>
+
+       <section class="services"> 
+        <div class="services-title">
+    <h2>SERVICES</h2>
+    <p>Proin iaculis purus consequat sem cure</p>
+        </div>
+
+        <div class="services-content">
+            <div class="ecommerce">
+                <div class="services-img">
+                    <img src="/Images/basket.gif" alt="">
+                </div>
+                <div class="services-title">
+                    <h3>E-Commerce</h3>
+                    <p>Proin iaculis purus consequat sem cure 
+                        digni ssim. Donec porttitora entum suscipit 
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+            <div class="ecommerce">
+                <div class="services-img">
+                    <img src="/Images/check.gif" alt="">
+                </div>
+                <div class="services-title">
+                    <h3>Responsive Web</h3>
+                    <p>Proin iaculis purus consequat sem cure 
+                        digni ssim. Donec porttitora entum suscipit 
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+            <div class="ecommerce">
+                <div class="services-img">
+                    <img src="/Images/security.gif" alt="">
+                </div>
+                <div class="services-title">
+                    <h3>Web Security</h3>
+                    <p>Proin iaculis purus consequat sem cure 
+                        digni ssim. Donec porttitora entum suscipit 
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <section class="contact">
+        <div class="contact-title">
+            <h2>CONTACT US</h2>
+            <p>Proin iaculis purus consequat sem cure</p>
+                </div>
+
+                <div class="contact-form">
+                    <form >
+                        
+                 <div class="inputs">
+                    <input type="text" placeholder="YOUR NAME">
+                    <input type="text" placeholder="YOUR E-MAIL">
+                    <input type="text" placeholder="SUBJECT">
+                 </div>
+                      <div class="text-area">
+                        <textarea rows="9" cols="50" name="comment" form="usrform">
+                    YOUR MESSAGE</textarea>
+                      </div>
+                            
+                    </form>
+                </div>
+
+                <div class="header-button">
+                    <a href="">SEND MESSAGES</a>
+                      </div>
+                <div class="bg-image">
+                    <img src="/Images/MAP.gif" alt="">
+                </div>
+       </section>
+       <footer>
+        <h5>© Copyright 2014 FreebiesXpress.com</h5>
+        <div class="icons">
+            <div class="icon-1">
+                <img src="/Images/twitter.gif" alt="">
+            </div>
+            <div class="icon-1">
+                <img src="/Images/facebook.gif" alt="">
+            </div>
+            <div class="icon-1">
+                <img src="/Images/facebook.gif" alt="">
+            </div>
+            <div class="icon-1">
+                <img src="/Images/facebook.gif" alt="">
+            </div>
+        </div>
+       </footer>
+
+
+       
+       <script>
+
+
+  var x = document.getElementById('menus')
+  var y = document.getElementById('humbard-icon')
+  var v = document.getElementById('close')
+
+function show(){
+    if (x.style.display !== "none") {
+       x.style.display = "block";
+       y.style.display = "none";
+       v.style.display = "block";
+       
+      } 
+      else {
+   x.style.display = "block";
+      }
+
+}
+
+function hide(){
+    alert
+    if (x.style.display = "block") {
+        x.style.display = "none";
+       y.style.display = "none";
+       y.style.display = "block";
+       v.style.display = "block";
+       v.style.display = "none";
+       
+      } 
+      else {
+   x.style.display = "block";
+
+      }
+}
+
+       </script>
+</body>
+</html>

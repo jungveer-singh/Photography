@@ -1,0 +1,223 @@
+@media only screen and (max-width: 768px){
+    textarea {
+        height: 11em;
+        width: 25em;
+    }
+    .text-area {
+        width: 50%;
+    }
+    .inputs {
+        width: 39%;
+
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .header-content .home-title h2 {
+        font-size: 55px;
+      
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .menu{
+        display: none;
+    }
+    .logo {
+        margin-right: auto;
+        padding-left: 30px;
+    }
+    .header-content .home-title h2 {
+        font-size: 50px;
+ 
+    }
+    .header-content {
+      
+        height: 35rem;
+        
+    }
+    .humburg {
+        display: block;
+        position: absolute;
+     
+        right: 10px;
+    }
+      
+      .humburg img{
+    width: 70%;
+      }
+
+      #menus  nav ul li {
+        padding: 8px 15px;
+    
+    }
+    #close{
+        display: none;
+    }
+    #close img{
+      width: 50%;
+    }
+
+    #menus {
+        width: 100%;
+        padding: 10px 0;
+        height: 188px;
+        position: absolute;
+        top: 74px;
+        /* margin: auto; */
+        background: #fff;
+    }
+    .header-content .navbar nav ul {
+        display: flex;
+       flex-direction: column;
+    }
+
+    .header-content .home-title {
+   
+        height: 26rem;
+
+    }
+    .services {
+        padding: 5rem 00;
+    }
+    
+    .ecommerce {
+        width: 29%;
+    }
+    .contact-form {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-form form {
+       width: 100%;
+        margin:unset;
+    }
+    .text-area {
+        width: 47%;
+    }
+  }
+
+  @media only screen and (max-width: 540px){
+    .menu{
+        display: none;
+    }
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs {
+        width: 69%;
+    }
+    textarea {
+        height: 11em;
+        width: 25em;
+    }
+    .text-area {
+        width: 62%;
+    }
+    .contact {
+       
+         height: unset;
+    }
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ecommerce {
+        width: 80%;
+        margin-bottom: 45px;
+    }
+  }
+
+  @media only screen and (max-width: 415px){
+    .menu{
+        display: none;
+    }
+    
+
+    .services-content {
+        display: flex;
+           flex-direction: column;
+        align-items: center;
+    }
+
+    .ecommerce {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .contact-form form {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs {
+        width: 80%;
+      
+    }
+    .text-area {
+        width: 80%;
+    }
+    .contact {
+       
+         height:unset; 
+    }
+    .bg-image img {
+   display: none;
+    }
+    textarea {
+        height: 8em;
+        width: 25em;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .icons {
+      margin-top: 20px;
+    }
+    .header-content .home-title h1 {
+        font-size: 35px;
+   
+    }
+    .header-content .home-title h2 {
+        font-size: 35px;
+    }
+    .services .services-title h2 {
+        font-size: 35px;
+    }
+    .contact .contact-title h2 {
+        font-size: 35px;
+    }
+    .header-button a {
+ 
+        font-size: 16px;
+      
+    }
+    .header-content {
+        height: 30rem;
+    }
+    .header-content .home-title {
+        height: 22rem;
+    }
+  }
+
+  @media only screen and (max-width: 390px){
+    textarea {
+        height: 11em;
+        width: 23.2em;
+    }
+    .header-content .home-title {
+      padding: 0 5px;
+    }
+  }
+  @media only screen and (max-width:320px){
+    textarea {
+        height: 11em;
+        width: 19em;
+    }
+  }
